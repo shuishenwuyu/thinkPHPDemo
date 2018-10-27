@@ -77,5 +77,13 @@ class UserController extends Controller {
     }
 
 
+    public function register(){
+        $this->display();
+    }
+
+    public function registerValidate(){
+        echo 'test';
+    }
+
 
 }
